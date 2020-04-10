@@ -84,6 +84,7 @@
                     UTS PW2
                 </div>
                 <p>Program Studi Sistem Informasi Untan</p>
+                <p>Dian Prawira</p>
             </div>
         </div>
     </body>
