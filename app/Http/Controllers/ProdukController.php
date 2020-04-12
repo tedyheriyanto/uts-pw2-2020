@@ -31,6 +31,7 @@ class ProdukController extends Controller
                 'harga'=>35000
             ]
         ];
+        return view ('produk.awal',["produk"=>$produk]);
 
         //kemudian tampilkan dalam view
     }
@@ -38,10 +39,12 @@ class ProdukController extends Controller
     public function tambah()
     {
         // tampilkan form seperti yang ada di template
+        return view ('produk.tambah');
     }
 
-    public function detail()
-    {
+    public function detail(Request $request)
+    {      
         // tampilkan halaman success seperti yang ada di template
+        return view ('produk.berhasil',["request"=>$request]);
     }
 }
